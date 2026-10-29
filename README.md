@@ -13,13 +13,14 @@ Welcome to the **DBMS Practical Laboratory Repository**. This repository contain
 | **03** | **Employee–Department–Project Schema & Advanced SQL Queries** | Creating relational enterprise schema, populating 30 employees across 5 departments and 8 projects, and executing Selection, Projection, Aggregates, GROUP BY, HAVING, CASE, and ORDER BY queries. | [View Experiment](./Experiment-03/README.md) &bull; [SQL Script](./Experiment-03/schema.sql) |
 | **04** | **Advanced SQL Queries and Execution Plans** | Implementing INNER, LEFT, SELF, and multi-table joins, correlated subqueries, EXISTS, simulated INTERSECT and EXCEPT operations, and comparing optimizer query plans using `EXPLAIN`. | [View Experiment](./Experiment-04/README.md) &bull; [SQL Script](./Experiment-04/schema.sql) |
 | **05** | **SQL Views, View Updatability and Recursive CTE** | Designing summary and hierarchy views, validating view updatability rules across simple and aggregated projections, and implementing recursive CTEs to traverse organizational reporting chains. | [View Experiment](./Experiment-05/README.md) &bull; [SQL Script](./Experiment-05/schema.sql) |
+| **06** | **Stored Procedures, Triggers & Audit Logging** | Implementing transactional stored procedure `transfer_employee` with exception handling, `BEFORE` boundary validation triggers, and an automated `AFTER UPDATE` salary audit trail with NULL-safe checking. | [View Experiment](./Experiment-06/README.md) &bull; [SQL Script](./Experiment-06/schema.sql) |
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-- **Database Engine**: MySQL / PostgreSQL / MariaDB / Oracle
+- **Database Engine**: MySQL Server 8.0+ / MySQL Workbench / MariaDB / PostgreSQL
 - **Modeling Tool**: Mermaid.js & ER Notation
-- **Language**: SQL (DDL, DML, DQL, DCL, TCL)
+- **Language**: SQL (DDL, DML, DQL, DCL, TCL, Procedural SQL / PL-SQL)
 
 ---
 
@@ -40,11 +41,14 @@ DBMS-Practical-File/
 ├── Experiment-04/
 │   ├── README.md       # Aim, Joins, Subqueries, Set Operations, Outputs & EXPLAIN Plans
 │   └── schema.sql      # Complete SQL Script (Joins, Correlated Subqueries, EXPLAIN)
-└── Experiment-05/
-    ├── README.md       # Aim, Views, Updatability Matrix, Recursive CTEs & Output Tables
-    └── schema.sql      # Complete SQL Script (ALTER, Hierarchy Updates, Views, CTEs)
+├── Experiment-05/
+│   ├── README.md       # Aim, Views, Updatability Matrix, Recursive CTEs & Output Tables
+│   └── schema.sql      # Complete SQL Script (ALTER, Hierarchy Updates, Views, CTEs)
+└── Experiment-06/
+    ├── README.md       # Aim, Theory, Triggers, Stored Procedure, Test Matrices & Audit Logs
+    └── schema.sql      # Complete SQL Script (Salary_Audit, Triggers, Procedure, Tests)
 ```
 
 ---
 
-*Maintained by [@saksham-ml](https://github.com/saksham-ml)*
+*Maintained by [@saksham-ml](https://github.com/saksham-ml) (Saksham Dubey - 25LBCS3326)*
