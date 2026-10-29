@@ -12,6 +12,7 @@ Welcome to the **DBMS Practical Laboratory Repository**. This repository contain
 | **02** | **ER Diagram to Relational Schema** | Mapping ER diagram into normalized relational tables, handling weak entities, multi-valued attributes, specialization, enforcing referential integrity (`CASCADE`, `SET NULL`), and testing constraint violations. | [View Experiment](./Experiment-02/README.md) &bull; [SQL Script](./Experiment-02/schema.sql) |
 | **03** | **Employee–Department–Project Schema & Advanced SQL Queries** | Creating relational enterprise schema, populating 30 employees across 5 departments and 8 projects, and executing Selection, Projection, Aggregates, GROUP BY, HAVING, CASE, and ORDER BY queries. | [View Experiment](./Experiment-03/README.md) &bull; [SQL Script](./Experiment-03/schema.sql) |
 | **04** | **Advanced SQL Queries and Execution Plans** | Implementing INNER, LEFT, SELF, and multi-table joins, correlated subqueries, EXISTS, simulated INTERSECT and EXCEPT operations, and comparing optimizer query plans using `EXPLAIN`. | [View Experiment](./Experiment-04/README.md) &bull; [SQL Script](./Experiment-04/schema.sql) |
+| **05** | **SQL Views, View Updatability and Recursive CTE** | Designing summary and hierarchy views, validating view updatability rules across simple and aggregated projections, and implementing recursive CTEs to traverse organizational reporting chains. | [View Experiment](./Experiment-05/README.md) &bull; [SQL Script](./Experiment-05/schema.sql) |
 
 ---
 
@@ -36,9 +37,12 @@ DBMS-Practical-File/
 ├── Experiment-03/
 │   ├── README.md       # Aim, Design, ER Diagram, 18 SQL Queries & Exact Output Tables
 │   └── schema.sql      # Complete SQL Script (DDL, 30 Employees DML, 18 Queries)
-└── Experiment-04/
-    ├── README.md       # Aim, Joins, Subqueries, Set Operations, Outputs & EXPLAIN Plans
-    └── schema.sql      # Complete SQL Script (Joins, Correlated Subqueries, EXPLAIN)
+├── Experiment-04/
+│   ├── README.md       # Aim, Joins, Subqueries, Set Operations, Outputs & EXPLAIN Plans
+│   └── schema.sql      # Complete SQL Script (Joins, Correlated Subqueries, EXPLAIN)
+└── Experiment-05/
+    ├── README.md       # Aim, Views, Updatability Matrix, Recursive CTEs & Output Tables
+    └── schema.sql      # Complete SQL Script (ALTER, Hierarchy Updates, Views, CTEs)
 ```
 
 ---
