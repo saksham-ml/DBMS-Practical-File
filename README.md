@@ -10,11 +10,12 @@ Welcome to the **DBMS Practical Laboratory Repository**. This repository contain
 | :---: | :--- | :--- | :---: |
 | **01** | **Design an ER Diagram for an Indian E-Commerce Platform** | Entity-Relationship modeling with entities, attributes (primary key, composite, multi-valued), weak entities, specialization, and cardinality/participation constraints. | [View Experiment](./Experiment-01/README.md) &bull; [SQL Schema](./Experiment-01/schema.sql) |
 | **02** | **ER Diagram to Relational Schema** | Mapping ER diagram into normalized relational tables, handling weak entities, multi-valued attributes, specialization, enforcing referential integrity (`CASCADE`, `SET NULL`), and testing constraint violations. | [View Experiment](./Experiment-02/README.md) &bull; [SQL Script](./Experiment-02/schema.sql) |
+| **03** | **Employee–Department–Project Schema & Advanced SQL Queries** | Creating relational enterprise schema, populating 30 employees across 5 departments and 8 projects, and executing Selection, Projection, Aggregates, GROUP BY, HAVING, CASE, and ORDER BY queries. | [View Experiment](./Experiment-03/README.md) &bull; [SQL Script](./Experiment-03/schema.sql) |
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-- **Database Engine**: MySQL / PostgreSQL / Oracle
+- **Database Engine**: MySQL / PostgreSQL / MariaDB / Oracle
 - **Modeling Tool**: Mermaid.js & ER Notation
 - **Language**: SQL (DDL, DML, DQL, DCL, TCL)
 
@@ -28,9 +29,12 @@ DBMS-Practical-File/
 ├── Experiment-01/
 │   ├── README.md       # Aim, Theory, Key Components, Schema Details & ER Diagram
 │   └── schema.sql      # DDL SQL Script implementing the Relational Schema
-└── Experiment-02/
-    ├── README.md       # Aim, Theory, Mapping Table, DDL & 5 Verified Practical Outputs
-    └── schema.sql      # Complete SQL Script (DDL, DML, Constraint Demonstrations)
+├── Experiment-02/
+│   ├── README.md       # Aim, Theory, Mapping Table, DDL & 5 Verified Practical Outputs
+│   └── schema.sql      # Complete SQL Script (DDL, DML, Constraint Demonstrations)
+└── Experiment-03/
+    ├── README.md       # Aim, Design, ER Diagram, 18 SQL Queries & Exact Output Tables
+    └── schema.sql      # Complete SQL Script (DDL, 30 Employees DML, 18 Queries)
 ```
 
 ---
